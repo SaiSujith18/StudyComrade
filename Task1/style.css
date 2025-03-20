@@ -1,0 +1,32 @@
+body {
+    background-color: #8b9772;
+    font-family: Arial, sans-serif;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.green-text {
+    color: green;
+}
+.trebuchet {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.big-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+.small-white-text {
+    font-size: 12px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}

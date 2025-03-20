@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Academics Page */
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #444;
+}
+
+h2 {
+    color: #222;
+    border-bottom: 2px solid #444;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.department-list {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.department-list li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.department-list ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.department-list ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.department-list ul li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}

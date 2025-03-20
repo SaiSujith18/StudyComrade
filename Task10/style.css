@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    font-family: Arial, sans-serif;
+}
+
+/* First Image Replication */
+.image-container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.blue-box {
+    width: 150px;
+    height: 150px;
+    background-color: deepskyblue;
+    margin-right: 20px;
+}
+
+.text {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: lightgray;
+    font-size: 14px;
+}
+
+/* Second Image Replication */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    padding: 5px;
+}
+
+.grid-item {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

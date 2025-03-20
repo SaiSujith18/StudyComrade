@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Header section */
+.header {
+    height: 100px;
+    border: 1px solid black;
+}
+
+/* Inner table inside header */
+.inner-table {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.inner-table td {
+    border: 1px solid black;
+    height: 30px;
+}
+
+/* Green Bar */
+.green-bar {
+    background-color: olive;
+    height: 50px;
+    border: 1px solid black;
+}
+
+/* Sidebars */
+.side {
+    width: 15%;
+    border: 1px solid black;
+}
+
+/* Image Section */
+.image-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-section img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer {
+    background-color: navy;
+    height: 50px;
+    border: 1px solid black;
+}
