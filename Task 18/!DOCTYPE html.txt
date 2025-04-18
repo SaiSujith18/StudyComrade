@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <style>
+    /* Simple CSS for styling the form */
+    form {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+
+    .error {
+      color: red;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align: center;">User Registration Form</h2>
+
+  <form id="registrationForm" onsubmit="return validateForm()">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+    <div class="error" id="nameError"></div>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <div class="error" id="emailError"></div>
+
+    <label for="contact">Contact Number:</label>
+    <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required>
+    <div class="error" id="contactError"></div>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="18" required>
+    <div class="error" id="ageError"></div>
+
+    <label for="designation">Designation:</label>
+    <input type="text" id="designation" name="designation" required>
+    <div class="error" id="designationError"></div>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    <div class="error" id="dobError"></div>
+
+    <label for="files">Upload Files (Select multiple files):</label>
+    <input type="file" id="files" name="files" multiple required>
+    <div class="error" id="filesError"></div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <
